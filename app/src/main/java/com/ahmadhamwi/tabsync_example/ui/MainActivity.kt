@@ -89,7 +89,8 @@ class MainActivity : AppCompatActivity() {
         TabbedListMediator(
             recyclerView,
             tabLayout,
-            categories.indices.toList()
+            categories.indices.toList(),
+            true
         ).attach()
     }
 }
